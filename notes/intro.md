@@ -26,14 +26,14 @@
 
 ## 📌 Applications of DBMS
 
-✔️ - **Banking**: Manages accounts, transactions, and financial records.
-✔️ - **Airlines**: Handles bookings, schedules, and availability.
-✔️ - **E-commerce**: Supports catalogs, orders, and secure transactions.
-✔️ - **Healthcare**: Stores patient records and billing.
-✔️ - **Education**: Manages student data and course enrollments.
-✔️ - **Telecom**: Tracks call records and billing.
-✔️ - **Government**: Maintains census and taxation data.
-✔️ - **Social Media**: Stores user profiles and posts efficiently.
+- ✔️ **Banking**: Manages accounts, transactions, and financial records.
+- ✔️ **Airlines**: Handles bookings, schedules, and availability.
+- ✔️ **E-commerce**: Supports catalogs, orders, and secure transactions.
+- ✔️ **Healthcare**: Stores patient records and billing.
+- ✔️ **Education**: Manages student data and course enrollments.
+- ✔️ **Telecom**: Tracks call records and billing.
+- ✔️ **Government**: Maintains census and taxation data.
+- ✔️ **Social Media**: Stores user profiles and posts efficiently.
 
 ---
 
