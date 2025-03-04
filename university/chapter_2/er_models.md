@@ -4,12 +4,12 @@
 
 # 📌 Database System Development Process 🏗️
 
-1️⃣ **Requirements Collection & Analysis** 🧐
-2️⃣ **Conceptual Design** 🎨
-3️⃣ **Selecting a Suitable Database System (DBS)** 💾
-4️⃣ **Logical Design** 🧩
-5️⃣ **Physical Design** 🏗️
-6️⃣ **Implementation** 🚀
+- 1️⃣ **Requirements Collection & Analysis** 🧐
+- 2️⃣ **Conceptual Design** 🎨
+- 3️⃣ **Selecting a Suitable Database System (DBS)** 💾
+- 4️⃣ **Logical Design** 🧩
+- 5️⃣ **Physical Design** 🏗️
+- 6️⃣ **Implementation** 🚀
 
 ## 🔎 Requirement Collection & Analysis 🧐
 
