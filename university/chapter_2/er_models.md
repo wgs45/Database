@@ -2,48 +2,48 @@
 
 ---
 
-# 📌 Database System Development Process 🏗️
+## 📌 Database System Development Process 🏗️
 
-- 1️⃣ **Requirements Collection & Analysis** 🧐
-- 2️⃣ **Conceptual Design** 🎨
-- 3️⃣ **Selecting a Suitable Database System (DBS)** 💾
-- 4️⃣ **Logical Design** 🧩
-- 5️⃣ **Physical Design** 🏗️
-- 6️⃣ **Implementation** 🚀
+1️⃣ **Requirements Collection & Analysis** 🧐  
+2️⃣ **Conceptual Design** 🎨  
+3️⃣ **Selecting a Suitable Database System (DBS)** 💾  
+4️⃣ **Logical Design** 🧩  
+5️⃣ **Physical Design** 🏗️  
+6️⃣ **Implementation** 🚀
 
-## 🔎 Requirement Collection & Analysis 🧐
+### 🔎 Requirement Collection & Analysis 🧐
 
 - 📋 **Interview Users**: Analysts & DBAs gather requirements from users.
 - 🛠️ **Use System Analysis Tools**: Tools like **Data Flow Diagram (DFD)** help in analysis & documentation.
 
-## 🏗️ Conceptual Design 🎨
+### 🏗️ Conceptual Design 🎨
 
 - 📜 Collect **relevant documents & forms** (e.g., shipping orders, return orders...)
 - 🗣️ Conduct **Interviews** with **operators, customers, and managers**.
 - 🛠️ Use **Conceptual Tools** to express information **visually** for non-technical users.
 - Commonly used tools: **Entity-Relationship Model (E-R Model)** 🔹
 
-## 🫙 Selecting a Suitable Database System 💾
+### 🫙 Selecting a Suitable Database System 💾
 
 - 🐬 **MySQL**
 - 🏢 **MSSQL**
 - 🔄 **Others** (PostgreSQL, Oracle, etc.)
 
-## 🎲 Logical Design 🧩
+### 🎲 Logical Design 🧩
 
 - Convert the **Conceptual Design** into **Database Schema** (e.g., tables, relationships).
 - 🔒 Define **Integrity Constraints** (rules to maintain data consistency).
 
-## 🧱 Physical Design 🏗️
+### 🧱 Physical Design 🏗️
 
 - Optimize **Storage, File Organization, and Indexing**.
 - 🔥 Focus on **Efficiency (Speed & Space Optimization)**.
 
 ---
 
-# 📌 Entities, Attributes & Relationships 🛜
+## 📌 Entities, Attributes & Relationships 🛜
 
-## 🛠 Symbols in E-R Models 🔍
+### 🛠 Symbols in E-R Models 🔍
 
 - 🔲 **Rectangles** → Represent **Entities** 🏢
 - 🟢 **Ellipses** → Represent **Attributes** 📊
@@ -52,41 +52,37 @@
 - 🟡 **Double Ellipse** → Represent **Multi-Valued Attributes** 📞📧
 - 🔲 **Double Rectangle** → Represent **Weak Entities** 🛑
 
----
-
-## 🔲 Entities 🏢
+### 🔲 Entities 🏢
 
 - **Objects in the real world that exist independently.**
 - 🎓 **Examples:** Teachers, Students, Courses 📚
 - Each record in an entity is called an **Instance** 📋
 
----
-
-## 🟢 Attributes 📊
+### 🟢 Attributes 📊
 
 Used to **describe** entities. Types of attributes:
 
-### 📍 General (Atomic) Attributes 🏷️
+#### 📍 General (Atomic) Attributes 🏷️
 
 - **Single-value, indivisible attributes.**
 - 🎓 Examples: **Price, Gender, Address, Birthday** 🎂
 
-### 🏗️ Composite Attributes 🏷️
+#### 🏗️ Composite Attributes 🏷️
 
 - **Attributes that can be divided into smaller subparts.**
 - 🎓 Example: **Name → First Name + Last Name**
 
-### 📞 Multivalued Attributes 📞📧
+#### 📞 Multivalued Attributes 📞📧
 
 - **Can have multiple values.**
 - 🎓 Example: A **Student** can have multiple **phone numbers** 📱
 
-### 🧮 Derived Attributes 🧮
+#### 🧮 Derived Attributes 🧮
 
 - **Values that can be calculated from other attributes.**
 - 🎓 Example: **Age** can be derived from **Birthday** 🎂 → No need to store it!
 
-### 🔑 Key Attributes 🔑
+#### 🔑 Key Attributes 🔑
 
 - **Unique attributes used to identify an instance (Primary Key, Candidate Key).**
 - 🎓 Example: **Student ID, Employee Number**
@@ -129,9 +125,7 @@ Defines **associations between entities**.
   - ✅ **Strong Entity** → Exists independently.
   - 🛑 **Weak Entity** → Needs another entity to exist.
 
----
-
-## 🔑 Partial Key (Discriminator) 🏷️
+### 🔑 Partial Key (Discriminator) 🏷️
 
 - **Used to identify weak entity instances related to the same strong entity.**
 - 📍 **Dashed underline** represents a **Partial Key**.
@@ -139,10 +133,18 @@ Defines **associations between entities**.
 
 ---
 
-# 🎨 ER Diagram 📊
+## 🎨 ER Diagram 📊
 
-- ER Diagrams visually **represent entities, attributes, and relationships**.
-- **Helps in designing & understanding the database structure!** 🛠️
+Converting text records into E-R Diagram usually has the following correspondences:
+
+- **Noun:**
+  - Represents **Entities** or **Instances**.
+- **Verb:**
+  - Represents **Relationships**.
+- **Adjective:**
+  - Represents **Attributes**.
+- **Adverb:**
+  - Represents **Relational Attributes**.
 
 ---
 
