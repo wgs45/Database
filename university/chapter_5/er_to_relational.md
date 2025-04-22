@@ -1,4 +1,4 @@
-# 🌟 E-R Diagram to Relational Mapping: The Magical Grimoire Edition 📜✨
+# 🌟 E-R Diagram to Relational Mapping 📜✨
 
 Welcome, young database alchemist! 🧝‍♀️✨ Today we master the art of transforming E-R diagrams into relational tables with the elegance of a high-ranking sorceress~ 🪄📖
 
